@@ -31,7 +31,7 @@ export function useProject() {
 
 export function ProjectProvider({ children }: { children: ReactNode }) {
   const supabase = useSupabase();
-  const [projects, setProjects] = useState<Project[]>([]);
+  const [, setProjects] = useState<Project[]>([]);
   const [currentProject, setCurrentProject] = useState<Project | null>(null);
 
   useEffect(() => {

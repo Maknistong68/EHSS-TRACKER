@@ -58,8 +58,7 @@ export default function RegisterForm() {
         setError(error.message);
         setLoading(false);
       } else {
-        router.push('/dashboard');
-        router.refresh();
+        window.location.href = '/dashboard';
       }
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Registration failed');

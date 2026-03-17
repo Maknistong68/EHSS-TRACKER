@@ -7,7 +7,7 @@ import { useToast } from '@/components/shared/toast';
 import DataTable, { Column } from '@/components/tables/data-table';
 import TableActions from '@/components/tables/table-actions';
 import ConfirmDialog from '@/components/shared/confirm-dialog';
-import { formatDate, getExpiryStatus } from '@/lib/utils/dates';
+import { formatDate, getExpiryStatus, expiryStatusColor } from '@/lib/utils/dates';
 import { cn } from '@/lib/utils';
 import { X, Pencil } from 'lucide-react';
 import { TableSkeleton } from '@/components/shared/loading-skeleton';
@@ -105,7 +105,7 @@ export default function DocumentsPage() {
       key: 'expiry_date', header: 'Expires', sortable: true, render: (r) => {
         if (!r.expiry_date) return '-';
         const exp = getExpiryStatus(r.expiry_date);
-        return <span className={exp.color}>{formatDate(r.expiry_date)}</span>;
+        return <span className={expiryStatusColor(exp)}>{formatDate(r.expiry_date)}</span>;
       }
     },
     { key: 'status', header: 'Status', render: (r) => <span className={cn('rounded-full px-2 py-0.5 text-xs font-medium', statusColor[r.status] || '')}>{r.status}</span> },

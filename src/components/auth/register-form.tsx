@@ -42,23 +42,28 @@ export default function RegisterForm() {
       return;
     }
 
-    const { error } = await supabase.auth.signUp({
-      email,
-      password,
-      options: {
-        data: {
-          full_name: fullName,
-          phone,
+    try {
+      const { error } = await supabase.auth.signUp({
+        email: email.trim(),
+        password,
+        options: {
+          data: {
+            full_name: fullName.trim(),
+            phone: phone.trim() || undefined,
+          },
         },
-      },
-    });
+      });
 
-    if (error) {
-      setError(error.message);
+      if (error) {
+        setError(error.message);
+        setLoading(false);
+      } else {
+        router.push('/dashboard');
+        router.refresh();
+      }
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Registration failed');
       setLoading(false);
-    } else {
-      router.push('/dashboard');
-      router.refresh();
     }
   };
 

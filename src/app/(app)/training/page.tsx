@@ -7,7 +7,7 @@ import { useToast } from '@/components/shared/toast';
 import DataTable, { Column } from '@/components/tables/data-table';
 import TableActions from '@/components/tables/table-actions';
 import ConfirmDialog from '@/components/shared/confirm-dialog';
-import { formatDate, getExpiryStatus } from '@/lib/utils/dates';
+import { formatDate, getExpiryStatus, expiryStatusColor } from '@/lib/utils/dates';
 import { cn } from '@/lib/utils';
 import { X, Pencil } from 'lucide-react';
 import { TableSkeleton } from '@/components/shared/loading-skeleton';
@@ -110,7 +110,7 @@ export default function TrainingPage() {
       key: 'card_expiry', header: 'Card Expiry', sortable: true, render: (r) => {
         if (!r.card_expiry) return '-';
         const expiry = getExpiryStatus(r.card_expiry);
-        return <span className={expiry.color}>{formatDate(r.card_expiry)}</span>;
+        return <span className={expiryStatusColor(expiry)}>{formatDate(r.card_expiry)}</span>;
       }
     },
     {

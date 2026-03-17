@@ -7,7 +7,7 @@ import { useToast } from '@/components/shared/toast';
 import DataTable, { Column } from '@/components/tables/data-table';
 import TableActions from '@/components/tables/table-actions';
 import ConfirmDialog from '@/components/shared/confirm-dialog';
-import { formatDate, getExpiryStatus } from '@/lib/utils/dates';
+import { formatDate, getExpiryStatus, expiryStatusColor } from '@/lib/utils/dates';
 import { cn } from '@/lib/utils';
 import { X, Pencil } from 'lucide-react';
 import { TableSkeleton } from '@/components/shared/loading-skeleton';
@@ -106,7 +106,7 @@ export default function EquipmentPage() {
       key: 'cert_expiry', header: 'Cert Expiry', sortable: true, render: (r) => {
         if (!r.cert_expiry) return '-';
         const expiry = getExpiryStatus(r.cert_expiry);
-        return <span className={expiry.color}>{formatDate(r.cert_expiry)}</span>;
+        return <span className={expiryStatusColor(expiry)}>{formatDate(r.cert_expiry)}</span>;
       }
     },
     { key: 'status', header: 'Status', render: (r) => <span className={cn('rounded-full px-2 py-0.5 text-xs font-medium', statusColor[r.status] || '')}>{r.status}</span> },

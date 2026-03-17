@@ -18,16 +18,21 @@ export default function LoginForm() {
     setLoading(true);
     setError('');
 
-    const { error } = await supabase.auth.signInWithPassword({
-      email,
-      password,
-    });
+    try {
+      const { error } = await supabase.auth.signInWithPassword({
+        email: email.trim(),
+        password,
+      });
 
-    if (error) {
-      setError(error.message);
+      if (error) {
+        setError(error.message);
+        setLoading(false);
+      } else {
+        window.location.href = '/dashboard';
+      }
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Login failed. Please try again.');
       setLoading(false);
-    } else {
-      window.location.href = '/dashboard';
     }
   };
 

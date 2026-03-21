@@ -5,8 +5,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'EHSS Tracker - NEOM/Oxagon HSSE 5-Year Consultant Tracker',
-  description: 'Environment, Health, Safety & Security tracking system for NEOM construction projects with full Saudi PDPL compliance.',
+  title: 'EHSS Tracker - Construction EHSS Management System',
+  description: 'Environment, Health, Safety & Security tracking system for construction projects.',
 };
 
 export default function RootLayout({

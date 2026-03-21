@@ -58,7 +58,7 @@ export default function AnnualSummaryPage() {
     <div className="space-y-6">
       <div>
         <h1 className="text-2xl font-bold text-gray-900">Annual Summary</h1>
-        <p className="text-sm text-gray-500">5-year KPI summary with trend indicators across all 72 KPIs</p>
+        <p className="text-sm text-gray-500">Multi-year KPI summary with trend indicators across all 72 KPIs</p>
       </div>
 
       {/* Category filter */}

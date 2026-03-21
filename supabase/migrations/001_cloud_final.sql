@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS projects (
   name        TEXT NOT NULL,
   contract_no TEXT,
   location    TEXT,
-  region      TEXT DEFAULT 'NEOM',
+  region      TEXT,
   start_year  INTEGER NOT NULL DEFAULT 2024,
   status      TEXT DEFAULT 'active'
                 CHECK (status IN ('active','completed','suspended')),

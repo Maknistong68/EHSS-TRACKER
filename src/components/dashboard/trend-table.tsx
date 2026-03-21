@@ -26,7 +26,7 @@ const defaultData: TrendData[] = [
 export default function TrendTable({ data = defaultData, startYear = 2024 }: TrendTableProps) {
   return (
     <div className="card">
-      <h3 className="text-sm font-semibold text-gray-900 mb-4">5-Year Trend Summary</h3>
+      <h3 className="text-sm font-semibold text-gray-900 mb-4">Trend Summary</h3>
       <div className="table-container">
         <table className="w-full">
           <thead>

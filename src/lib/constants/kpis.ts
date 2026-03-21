@@ -29,7 +29,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
   // 1. Safety Performance (8 KPIs)
   // ─────────────────────────────────────────────
   {
-    code: 'NEOM-HSSE-001',
+    code: 'EHSS-001',
     category: 'Safety Performance',
     name: 'Total Recordable Incident Rate (TRIR)',
     unit: 'rate',
@@ -39,7 +39,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-002',
+    code: 'EHSS-002',
     category: 'Safety Performance',
     name: 'Lost Time Injury Frequency Rate (LTIFR)',
     unit: 'rate',
@@ -49,7 +49,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-003',
+    code: 'EHSS-003',
     category: 'Safety Performance',
     name: 'Fatalities',
     unit: 'count',
@@ -59,7 +59,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-004',
+    code: 'EHSS-004',
     category: 'Safety Performance',
     name: 'First Aid Cases',
     unit: 'count',
@@ -69,7 +69,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-005',
+    code: 'EHSS-005',
     category: 'Safety Performance',
     name: 'Near Miss Reports',
     unit: 'count',
@@ -79,7 +79,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-006',
+    code: 'EHSS-006',
     category: 'Safety Performance',
     name: 'Lost Work Days',
     unit: 'count',
@@ -89,7 +89,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-007',
+    code: 'EHSS-007',
     category: 'Safety Performance',
     name: 'Restricted Work Cases',
     unit: 'count',
@@ -99,7 +99,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-008',
+    code: 'EHSS-008',
     category: 'Safety Performance',
     name: 'Safety Observation Rate',
     unit: 'rate per 100 workers',
@@ -113,7 +113,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
   // 2. Inspection & Audit (8 KPIs)
   // ─────────────────────────────────────────────
   {
-    code: 'NEOM-HSSE-009',
+    code: 'EHSS-009',
     category: 'Inspection & Audit',
     name: 'HSE Inspections Completed',
     unit: 'count',
@@ -123,7 +123,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-010',
+    code: 'EHSS-010',
     category: 'Inspection & Audit',
     name: 'Inspection Findings Closed',
     unit: '%',
@@ -133,7 +133,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-011',
+    code: 'EHSS-011',
     category: 'Inspection & Audit',
     name: 'NCR Closure Rate',
     unit: '%',
@@ -143,7 +143,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-012',
+    code: 'EHSS-012',
     category: 'Inspection & Audit',
     name: 'Management Safety Tours',
     unit: 'count',
@@ -153,7 +153,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-013',
+    code: 'EHSS-013',
     category: 'Inspection & Audit',
     name: 'Third Party Audit Score',
     unit: '%',
@@ -163,7 +163,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'quarterly',
   },
   {
-    code: 'NEOM-HSSE-014',
+    code: 'EHSS-014',
     category: 'Inspection & Audit',
     name: 'Internal Audit Findings Open',
     unit: 'count',
@@ -173,7 +173,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-015',
+    code: 'EHSS-015',
     category: 'Inspection & Audit',
     name: 'Corrective Actions Overdue',
     unit: 'count',
@@ -183,7 +183,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-016',
+    code: 'EHSS-016',
     category: 'Inspection & Audit',
     name: 'Compliance Audit Score',
     unit: '%',
@@ -197,7 +197,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
   // 3. Training & Competency (8 KPIs)
   // ─────────────────────────────────────────────
   {
-    code: 'NEOM-HSSE-017',
+    code: 'EHSS-017',
     category: 'Training & Competency',
     name: 'Induction Completion Rate',
     unit: '%',
@@ -207,7 +207,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-018',
+    code: 'EHSS-018',
     category: 'Training & Competency',
     name: 'Toolbox Talk Attendance',
     unit: '%',
@@ -217,7 +217,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-019',
+    code: 'EHSS-019',
     category: 'Training & Competency',
     name: 'Competency Assessments Completed',
     unit: '%',
@@ -227,7 +227,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'quarterly',
   },
   {
-    code: 'NEOM-HSSE-020',
+    code: 'EHSS-020',
     category: 'Training & Competency',
     name: 'Specialized Training Completion',
     unit: '%',
@@ -237,7 +237,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'quarterly',
   },
   {
-    code: 'NEOM-HSSE-021',
+    code: 'EHSS-021',
     category: 'Training & Competency',
     name: 'Training Hours per Worker',
     unit: 'hours',
@@ -247,7 +247,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-022',
+    code: 'EHSS-022',
     category: 'Training & Competency',
     name: 'Expired Certifications',
     unit: 'count',
@@ -257,7 +257,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-023',
+    code: 'EHSS-023',
     category: 'Training & Competency',
     name: 'Emergency Drill Participation',
     unit: '%',
@@ -267,7 +267,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'quarterly',
   },
   {
-    code: 'NEOM-HSSE-024',
+    code: 'EHSS-024',
     category: 'Training & Competency',
     name: 'Supervisor HSE Training',
     unit: '%',
@@ -281,7 +281,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
   // 4. Environmental (8 KPIs)
   // ─────────────────────────────────────────────
   {
-    code: 'NEOM-HSSE-025',
+    code: 'EHSS-025',
     category: 'Environmental',
     name: 'Environmental Incidents',
     unit: 'count',
@@ -291,7 +291,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-026',
+    code: 'EHSS-026',
     category: 'Environmental',
     name: 'Waste Recycling Rate',
     unit: '%',
@@ -301,7 +301,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-027',
+    code: 'EHSS-027',
     category: 'Environmental',
     name: 'Water Usage vs Target',
     unit: '%',
@@ -311,7 +311,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-028',
+    code: 'EHSS-028',
     category: 'Environmental',
     name: 'Dust Complaints',
     unit: 'count',
@@ -321,7 +321,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-029',
+    code: 'EHSS-029',
     category: 'Environmental',
     name: 'Noise Complaints',
     unit: 'count',
@@ -331,7 +331,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-030',
+    code: 'EHSS-030',
     category: 'Environmental',
     name: 'Spill Incidents',
     unit: 'count',
@@ -341,7 +341,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-031',
+    code: 'EHSS-031',
     category: 'Environmental',
     name: 'Carbon Emission Tracking',
     unit: '%',
@@ -351,7 +351,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-032',
+    code: 'EHSS-032',
     category: 'Environmental',
     name: 'Environmental Compliance Score',
     unit: '%',
@@ -365,7 +365,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
   // 5. Permit to Work (7 KPIs)
   // ─────────────────────────────────────────────
   {
-    code: 'NEOM-HSSE-033',
+    code: 'EHSS-033',
     category: 'Permit to Work',
     name: 'PTW Compliance Rate',
     unit: '%',
@@ -375,7 +375,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-034',
+    code: 'EHSS-034',
     category: 'Permit to Work',
     name: 'PTW Audits Conducted',
     unit: 'count',
@@ -385,7 +385,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-035',
+    code: 'EHSS-035',
     category: 'Permit to Work',
     name: 'PTW Violations',
     unit: 'count',
@@ -395,7 +395,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-036',
+    code: 'EHSS-036',
     category: 'Permit to Work',
     name: 'Hot Work Permits Issued',
     unit: 'count',
@@ -405,7 +405,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-037',
+    code: 'EHSS-037',
     category: 'Permit to Work',
     name: 'Confined Space Entries',
     unit: 'count',
@@ -415,7 +415,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-038',
+    code: 'EHSS-038',
     category: 'Permit to Work',
     name: 'Excavation Permits',
     unit: 'count',
@@ -425,7 +425,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-039',
+    code: 'EHSS-039',
     category: 'Permit to Work',
     name: 'Working at Height Permits',
     unit: 'count',
@@ -439,7 +439,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
   // 6. Emergency Response (7 KPIs)
   // ─────────────────────────────────────────────
   {
-    code: 'NEOM-HSSE-040',
+    code: 'EHSS-040',
     category: 'Emergency Response',
     name: 'Emergency Drills Conducted',
     unit: 'count',
@@ -449,7 +449,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-041',
+    code: 'EHSS-041',
     category: 'Emergency Response',
     name: 'Emergency Response Time',
     unit: 'minutes',
@@ -459,7 +459,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-042',
+    code: 'EHSS-042',
     category: 'Emergency Response',
     name: 'First Aider Ratio',
     unit: 'ratio per 50 workers',
@@ -469,7 +469,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-043',
+    code: 'EHSS-043',
     category: 'Emergency Response',
     name: 'Fire Extinguisher Inspection',
     unit: '%',
@@ -479,7 +479,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-044',
+    code: 'EHSS-044',
     category: 'Emergency Response',
     name: 'Emergency Equipment Status',
     unit: '%',
@@ -489,7 +489,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-045',
+    code: 'EHSS-045',
     category: 'Emergency Response',
     name: 'Evacuation Drill Time',
     unit: 'minutes',
@@ -499,7 +499,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'quarterly',
   },
   {
-    code: 'NEOM-HSSE-046',
+    code: 'EHSS-046',
     category: 'Emergency Response',
     name: 'Communication System Test',
     unit: '%',
@@ -513,7 +513,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
   // 7. Health & Welfare (7 KPIs)
   // ─────────────────────────────────────────────
   {
-    code: 'NEOM-HSSE-047',
+    code: 'EHSS-047',
     category: 'Health & Welfare',
     name: 'Heat Stress Incidents',
     unit: 'count',
@@ -523,7 +523,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-048',
+    code: 'EHSS-048',
     category: 'Health & Welfare',
     name: 'Medical Screenings Completed',
     unit: '%',
@@ -533,7 +533,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-049',
+    code: 'EHSS-049',
     category: 'Health & Welfare',
     name: 'Occupational Health Cases',
     unit: 'count',
@@ -543,7 +543,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-050',
+    code: 'EHSS-050',
     category: 'Health & Welfare',
     name: 'Welfare Facility Compliance',
     unit: '%',
@@ -553,7 +553,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-051',
+    code: 'EHSS-051',
     category: 'Health & Welfare',
     name: 'Drinking Water Quality Checks',
     unit: '%',
@@ -563,7 +563,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-052',
+    code: 'EHSS-052',
     category: 'Health & Welfare',
     name: 'Rest Break Compliance',
     unit: '%',
@@ -573,7 +573,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-053',
+    code: 'EHSS-053',
     category: 'Health & Welfare',
     name: 'Worker Satisfaction Score',
     unit: '%',
@@ -587,7 +587,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
   // 8. Subcontractor Management (7 KPIs)
   // ─────────────────────────────────────────────
   {
-    code: 'NEOM-HSSE-054',
+    code: 'EHSS-054',
     category: 'Subcontractor Management',
     name: 'Subcontractor Pre-qualification',
     unit: '%',
@@ -597,7 +597,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'quarterly',
   },
   {
-    code: 'NEOM-HSSE-055',
+    code: 'EHSS-055',
     category: 'Subcontractor Management',
     name: 'Subcontractor Audit Score',
     unit: '%',
@@ -607,7 +607,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'quarterly',
   },
   {
-    code: 'NEOM-HSSE-056',
+    code: 'EHSS-056',
     category: 'Subcontractor Management',
     name: 'Subcontractor NCR Rate',
     unit: 'count per sub',
@@ -617,7 +617,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-057',
+    code: 'EHSS-057',
     category: 'Subcontractor Management',
     name: 'Subcontractor Training Compliance',
     unit: '%',
@@ -627,7 +627,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-058',
+    code: 'EHSS-058',
     category: 'Subcontractor Management',
     name: 'Subcontractor TRIR',
     unit: 'rate',
@@ -637,7 +637,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-059',
+    code: 'EHSS-059',
     category: 'Subcontractor Management',
     name: 'Subcontractor PTW Compliance',
     unit: '%',
@@ -647,7 +647,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-060',
+    code: 'EHSS-060',
     category: 'Subcontractor Management',
     name: 'Subcontractor Performance Reviews',
     unit: '%',
@@ -661,7 +661,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
   // 9. Eltizam Critical Controls (6 KPIs)
   // ─────────────────────────────────────────────
   {
-    code: 'NEOM-HSSE-061',
+    code: 'EHSS-061',
     category: 'Eltizam Critical Controls',
     name: 'Working at Height Controls',
     unit: '%',
@@ -671,7 +671,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-062',
+    code: 'EHSS-062',
     category: 'Eltizam Critical Controls',
     name: 'Lifting Operations Controls',
     unit: '%',
@@ -681,7 +681,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-063',
+    code: 'EHSS-063',
     category: 'Eltizam Critical Controls',
     name: 'Electrical Safety Controls',
     unit: '%',
@@ -691,7 +691,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-064',
+    code: 'EHSS-064',
     category: 'Eltizam Critical Controls',
     name: 'Excavation Controls',
     unit: '%',
@@ -701,7 +701,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-065',
+    code: 'EHSS-065',
     category: 'Eltizam Critical Controls',
     name: 'Confined Space Controls',
     unit: '%',
@@ -711,7 +711,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-066',
+    code: 'EHSS-066',
     category: 'Eltizam Critical Controls',
     name: 'Energy Isolation (LOTO)',
     unit: '%',
@@ -725,7 +725,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
   // 10. Manpower & Compliance (6 KPIs)
   // ─────────────────────────────────────────────
   {
-    code: 'NEOM-HSSE-067',
+    code: 'EHSS-067',
     category: 'Manpower & Compliance',
     name: 'Total Manhours Worked',
     unit: 'hours',
@@ -735,7 +735,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-068',
+    code: 'EHSS-068',
     category: 'Manpower & Compliance',
     name: 'Overtime Percentage',
     unit: '%',
@@ -745,7 +745,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-069',
+    code: 'EHSS-069',
     category: 'Manpower & Compliance',
     name: 'Absenteeism Rate',
     unit: '%',
@@ -755,7 +755,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-070',
+    code: 'EHSS-070',
     category: 'Manpower & Compliance',
     name: 'Saudization Compliance',
     unit: '%',
@@ -765,7 +765,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'quarterly',
   },
   {
-    code: 'NEOM-HSSE-071',
+    code: 'EHSS-071',
     category: 'Manpower & Compliance',
     name: 'Working Hours Compliance',
     unit: '%',
@@ -775,7 +775,7 @@ export const KPI_DEFINITIONS: KpiDefinition[] = [
     frequency: 'monthly',
   },
   {
-    code: 'NEOM-HSSE-072',
+    code: 'EHSS-072',
     category: 'Manpower & Compliance',
     name: 'Ramadan Work Hour Compliance',
     unit: '%',

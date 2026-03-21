@@ -81,7 +81,7 @@ export default function DashboardPage() {
         incidents: incidents.length,
       });
 
-      // Build 5-year trend from KPI data
+      // Build multi-year trend from KPI data
       const startYear = currentProject.start_year || 2024;
       const trendKpis = ['TRIR', 'LTIFR', 'Fatalities', 'Total Manhours', 'Inspections', 'Training Compliance %', 'NCR Closure Rate %', 'Environmental Incidents'];
       const kpiCodeMap: Record<string, string> = {

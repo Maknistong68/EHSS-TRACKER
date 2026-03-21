@@ -1,5 +1,5 @@
 /**
- * Saudi Labor Law & NEOM Compliance Utilities
+ * Saudi Labor Law Compliance Utilities
  */
 
 /**

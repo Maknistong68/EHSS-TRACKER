@@ -149,7 +149,7 @@ export default function KpiPage() {
       <div className="flex items-center justify-between flex-wrap gap-4">
         <div>
           <h1 className="text-2xl font-bold text-gray-900">KPI Tracker</h1>
-          <p className="text-sm text-gray-500">72 KPIs across 10 categories with NEOM references</p>
+          <p className="text-sm text-gray-500">72 KPIs across 10 categories</p>
         </div>
         <YearTabs
           startYear={currentProject?.start_year || 2024}

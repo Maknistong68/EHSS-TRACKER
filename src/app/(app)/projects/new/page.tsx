@@ -11,7 +11,7 @@ export default function NewProjectPage() {
     name: '',
     contract_no: '',
     location: '',
-    region: 'NEOM',
+    region: '',
     start_year: new Date().getFullYear(),
     status: 'active',
   });
@@ -80,7 +80,7 @@ export default function NewProjectPage() {
             value={form.name}
             onChange={(e) => setForm({ ...form, name: e.target.value })}
             className="input-field"
-            placeholder="e.g. NEOM Bay Phase 2 - EHSS Consultancy"
+            placeholder="e.g. Marina Bay Phase 2 - EHSS Consultancy"
           />
         </div>
 
@@ -92,7 +92,7 @@ export default function NewProjectPage() {
               value={form.contract_no}
               onChange={(e) => setForm({ ...form, contract_no: e.target.value })}
               className="input-field"
-              placeholder="e.g. NEOM-2024-HSE-001"
+              placeholder="e.g. PRJ-2024-HSE-001"
             />
           </div>
           <div>
@@ -102,11 +102,12 @@ export default function NewProjectPage() {
               onChange={(e) => setForm({ ...form, region: e.target.value })}
               className="input-field"
             >
-              <option>NEOM</option>
-              <option>Oxagon</option>
-              <option>Trojena</option>
-              <option>The Line</option>
-              <option>Sindalah</option>
+              <option value="">Select Region</option>
+              <option>Riyadh</option>
+              <option>Jeddah</option>
+              <option>Dammam</option>
+              <option>Makkah</option>
+              <option>Madinah</option>
               <option>Other</option>
             </select>
           </div>

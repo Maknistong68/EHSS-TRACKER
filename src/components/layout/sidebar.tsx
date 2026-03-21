@@ -81,7 +81,7 @@ export default function Sidebar() {
         {!collapsed && (
           <div className="overflow-hidden">
             <h1 className="text-lg font-bold text-white truncate">EHSS Tracker</h1>
-            <p className="text-[10px] text-slate-400 truncate">NEOM HSSE Management</p>
+            <p className="text-[10px] text-slate-400 truncate">EHSS Management System</p>
           </div>
         )}
       </div>

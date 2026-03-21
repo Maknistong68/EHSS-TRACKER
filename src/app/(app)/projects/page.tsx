@@ -19,7 +19,7 @@ interface Project {
   created_at: string;
 }
 
-const EMPTY_FORM = { name: '', contract_no: '', location: '', region: 'NEOM', start_year: 2024, status: 'active' };
+const EMPTY_FORM = { name: '', contract_no: '', location: '', region: '', start_year: 2024, status: 'active' };
 
 export default function ProjectsPage() {
   const supabase = useSupabase();
@@ -120,12 +120,12 @@ export default function ProjectsPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">Project Name <span className="text-red-500">*</span></label>
-              <input type="text" value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} className={cn('input-field', formErrors.name && 'border-red-400')} placeholder="e.g. NEOM Bay Phase 2" />
+              <input type="text" value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} className={cn('input-field', formErrors.name && 'border-red-400')} placeholder="e.g. Marina Bay Phase 2" />
               {formErrors.name && <p className="text-xs text-red-500 mt-1">{formErrors.name}</p>}
             </div>
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">Contract No.</label>
-              <input type="text" value={form.contract_no} onChange={(e) => setForm({ ...form, contract_no: e.target.value })} className="input-field" placeholder="e.g. NEOM-2024-001" />
+              <input type="text" value={form.contract_no} onChange={(e) => setForm({ ...form, contract_no: e.target.value })} className="input-field" placeholder="e.g. PRJ-2024-001" />
             </div>
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">Location</label>
@@ -134,9 +134,12 @@ export default function ProjectsPage() {
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">Region</label>
               <select value={form.region} onChange={(e) => setForm({ ...form, region: e.target.value })} className="input-field">
-                <option>NEOM</option>
+                <option value="">Select Region</option>
                 <option>Riyadh</option>
                 <option>Jeddah</option>
+                <option>Dammam</option>
+                <option>Makkah</option>
+                <option>Madinah</option>
                 <option>Other</option>
               </select>
             </div>

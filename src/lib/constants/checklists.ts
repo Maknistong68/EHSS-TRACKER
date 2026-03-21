@@ -56,7 +56,7 @@ export const PREMOB_ITEMS: ChecklistItemDef[] = [
   { section: 'Insurance & Legal', itemNumber: 26, description: 'Workers compensation insurance confirmed' },
   { section: 'Insurance & Legal', itemNumber: 27, description: 'Third-party liability insurance in place' },
   { section: 'Insurance & Legal', itemNumber: 28, description: 'Professional indemnity insurance confirmed' },
-  { section: 'Insurance & Legal', itemNumber: 29, description: 'NEOM HSSE requirements contractually acknowledged' },
+  { section: 'Insurance & Legal', itemNumber: 29, description: 'Client HSSE requirements contractually acknowledged' },
   { section: 'Insurance & Legal', itemNumber: 30, description: 'Saudi labor law compliance requirements reviewed' },
   { section: 'Insurance & Legal', itemNumber: 31, description: 'Environmental permits and licenses identified' },
   { section: 'Insurance & Legal', itemNumber: 32, description: 'Subcontractor HSSE pre-qualification completed' },
@@ -88,7 +88,7 @@ export const PREMOB_ITEMS: ChecklistItemDef[] = [
   { section: 'Permits & Approvals', itemNumber: 52, description: 'Confined space entry permit system ready' },
   { section: 'Permits & Approvals', itemNumber: 53, description: 'Working at height permit procedures defined' },
   { section: 'Permits & Approvals', itemNumber: 54, description: 'Electrical isolation (LOTO) procedures established' },
-  { section: 'Permits & Approvals', itemNumber: 55, description: 'NEOM access permits and badges arranged' },
+  { section: 'Permits & Approvals', itemNumber: 55, description: 'Site access permits and badges arranged' },
   { section: 'Permits & Approvals', itemNumber: 56, description: 'Vehicle and equipment entry permits coordinated' },
 
   // Section 8: Communication (8 items)
@@ -131,7 +131,7 @@ export const MOB_ITEMS: ChecklistItemDef[] = [
   { section: 'Personnel Readiness', itemNumber: 10, description: 'Medical fitness certificates verified for all personnel' },
   { section: 'Personnel Readiness', itemNumber: 11, description: 'PPE issued to all workers and fit-check completed' },
   { section: 'Personnel Readiness', itemNumber: 12, description: 'Emergency response team roles assigned and communicated' },
-  { section: 'Personnel Readiness', itemNumber: 13, description: 'NEOM access badges and permits obtained for all personnel' },
+  { section: 'Personnel Readiness', itemNumber: 13, description: 'Site access badges and permits obtained for all personnel' },
   { section: 'Personnel Readiness', itemNumber: 14, description: 'Operator licenses and certifications verified on-site' },
   { section: 'Personnel Readiness', itemNumber: 15, description: 'Worker accommodation inspected for welfare compliance' },
   { section: 'Personnel Readiness', itemNumber: 16, description: 'Transportation arrangements verified for safety compliance' },
@@ -164,7 +164,7 @@ export const MOB_ITEMS: ChecklistItemDef[] = [
   { section: 'Documentation', itemNumber: 37, description: 'Training records and competency matrix available on-site' },
   { section: 'Documentation', itemNumber: 38, description: 'Equipment inspection registers and certificates filed' },
   { section: 'Documentation', itemNumber: 39, description: 'HSSE forms and checklists printed and distributed' },
-  { section: 'Documentation', itemNumber: 40, description: 'Client and NEOM HSSE standards available for reference' },
+  { section: 'Documentation', itemNumber: 40, description: 'Client HSSE standards available for reference' },
 
   // Section 6: Consultant Baseline (8 items)
   { section: 'Consultant Baseline', itemNumber: 41, description: 'Baseline HSSE audit conducted and report issued' },
@@ -212,7 +212,7 @@ export const DEMOB_ITEMS: ChecklistItemDef[] = [
   { section: 'Personnel', itemNumber: 15, description: 'Demobilization safety briefing conducted for all personnel', priority: 'MEDIUM' },
   { section: 'Personnel', itemNumber: 16, description: 'Exit medical examinations completed where required', priority: 'MEDIUM' },
   { section: 'Personnel', itemNumber: 17, description: 'All PPE collected and accounted for', priority: 'MEDIUM' },
-  { section: 'Personnel', itemNumber: 18, description: 'NEOM access badges and permits returned', priority: 'MEDIUM' },
+  { section: 'Personnel', itemNumber: 18, description: 'Site access badges and permits returned', priority: 'MEDIUM' },
   { section: 'Personnel', itemNumber: 19, description: 'Worker welfare and final payments verified', priority: 'MEDIUM' },
   { section: 'Personnel', itemNumber: 20, description: 'Travel arrangements confirmed for departing personnel', priority: 'MEDIUM' },
   { section: 'Personnel', itemNumber: 21, description: 'Lessons learned session conducted with HSSE team', priority: 'MEDIUM' },

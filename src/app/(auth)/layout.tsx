@@ -11,7 +11,7 @@ export default function AuthLayout({
             EHSS Tracker
           </h1>
           <p className="mt-2 text-sm text-gray-600">
-            NEOM/Oxagon HSSE 5-Year Consultant Tracker
+            Construction EHSS Management System
           </p>
         </div>
         {children}
